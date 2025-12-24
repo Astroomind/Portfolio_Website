@@ -1,5 +1,6 @@
 * {
     text-align: center;
+    background-color: gray;
 }
 
 .table {
@@ -15,11 +16,13 @@ p {
 
 /* Projects grid and card styles */
 .projects-grid {
+    background: white;
      display: grid;
      grid-template-columns: repeat(3, 1fr);
      gap: 18px;
      margin: 24px 0;
      align-items: start;
+     color: white;
 }
 .project-card {
      background: #ffffff;
@@ -28,6 +31,7 @@ p {
      overflow: hidden;
      transition: transform .18s ease, box-shadow .18s ease;
      text-align: left;
+     color: red;
 }
 
 @media (max-width: 900px) {
